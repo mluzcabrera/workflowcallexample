@@ -5,6 +5,7 @@ on:
         description: 'Test scenario tags'
         required: false
         type: string
+        value: 'mlcbtag'
     secrets:
       cacasecret:
         required: true
