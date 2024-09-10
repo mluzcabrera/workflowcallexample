@@ -9,4 +9,4 @@ jobs:
   call-reusable:
     uses: mluzcabrera/workflowcallexample/.github/workflows/reusable.yaml@main
     secrets:
-      cacasecret: 789456
+      cacasecret: '789456'
