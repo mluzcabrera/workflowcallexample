@@ -3,7 +3,7 @@ on:
     inputs:
       tags:
         description: 'Test scenario tags'
-        required: true
+        required: false
         type: string
     secrets:
       cacasecret:
@@ -15,3 +15,5 @@ jobs:
     steps:
       - name: Print the input tag to STDOUT
         run: echo  The tags are ${{ inputs.tags }} 
+      - name: I Print passwords cause I don't care
+        run: echo  The password is ${{ secrets.cacasecret }} 
