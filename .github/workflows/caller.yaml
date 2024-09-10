@@ -7,6 +7,6 @@ on:
 
 jobs:
   call-reusable:
-    uses: mlucabrera/workflowcallexample/.github/workflows/reusable.yaml@main
+    uses: mluzcabrera/workflowcallexample/.github/workflows/reusable.yaml@main
     secrets:
-      envPAT: ${{ inputs.pass }}
+      envPAT: 789456
