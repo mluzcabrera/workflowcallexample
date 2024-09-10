@@ -10,7 +10,10 @@ on:
       tags:
         description: 'Test scenario tags'
         required: true
-        type: string    
+        type: string
+    secrets:
+      cacasecret:
+        required: true
 
 jobs:
   print-tag:
