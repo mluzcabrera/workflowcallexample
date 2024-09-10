@@ -7,8 +7,6 @@ on:
 
 jobs:
   call-reuable:
-    uses: mlucabrera/workflowcallexample/.github/workflows/reusable-workflow.yml@main
-    with:
-      config-path: .github/labeler.yml
+    uses: mlucabrera/workflowcallexample/.github/workflows/reusable.yaml@main
     secrets:
       envPAT: ${{ inputs.pass }}
